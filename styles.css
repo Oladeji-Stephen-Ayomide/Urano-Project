@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+body, html {
+    scroll-behavior: smooth;
+}
+
 button {
     cursor: pointer;
 }
@@ -180,6 +184,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     margin: 7em 3em;
+    padding-top: 2em;
 }
 
 .accredit {
